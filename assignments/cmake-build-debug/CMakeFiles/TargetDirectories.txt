@@ -1,0 +1,3 @@
+/home/jonnern/Documents/RWTH/cg1/Assignments/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jonnern/Documents/RWTH/cg1/Assignments/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jonnern/Documents/RWTH/cg1/Assignments/cmake-build-debug/CMakeFiles/Assignments.dir
