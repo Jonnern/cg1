@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/jonnern/Documents/RWTH/BasicTechniquesComputerGraphics/Assignments/assignment02

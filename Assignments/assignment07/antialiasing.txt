@@ -1,8 +1,0 @@
-Mipmapping helps against texture aliasing because it uses a texture with lower resolution where one pixel covers several texels. It does not help against geometric aliasing because it does not determine whether a point is inside or outside the triangle, only using point sample in the middle. It helps against shader aliasing because in the case where one pixel covers several texels it uses a lower resolution texture. This texture has blended the shades with the neighbour texels.
-
-MSAA does not help against shader aliasing because the fragment shader is only called once. It helps against geometric aliasing because you take several position samples. It does not help against texture aliasing. Why? In minification all position samples might be inside, but one color is computed. Not blending the colors from the multiple texels will cause aliasing. 
-
-FXAA helps against all types of aliasing becuase it blends all lines. 
-
-SSAA helps against all types of aliasing because you take more color samples.
-
